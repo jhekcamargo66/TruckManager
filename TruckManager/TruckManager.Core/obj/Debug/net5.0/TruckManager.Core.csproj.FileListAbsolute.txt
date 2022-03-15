@@ -1,0 +1,15 @@
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\bin\Debug\net5.0\TruckManager.Core.deps.json
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\bin\Debug\net5.0\TruckManager.Core.dll
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\bin\Debug\net5.0\ref\TruckManager.Core.dll
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\bin\Debug\net5.0\TruckManager.Core.pdb
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\bin\Debug\net5.0\TruckManager.Repository.dll
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\bin\Debug\net5.0\TruckManager.Repository.pdb
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.csprojAssemblyReference.cache
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.AssemblyInfoInputs.cache
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.AssemblyInfo.cs
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.csproj.CopyComplete
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.dll
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\ref\TruckManager.Core.dll
+C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Core\obj\Debug\net5.0\TruckManager.Core.pdb

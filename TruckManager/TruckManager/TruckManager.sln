@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager", "TruckManager.csproj", "{67958EB7-5E1E-42BA-8CDC-EBF6811500E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager.Repository", "..\TruckManager.Repository\TruckManager.Repository.csproj", "{6F8A6430-C21C-4AD1-9215-6F63543E2A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager.Core", "..\TruckManager.Core\TruckManager.Core.csproj", "{F760D08E-7D0B-4524-9186-229F8003DB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager.API", "..\TruckManager.API\TruckManager.API.csproj", "{99EAD99C-B0D2-4F62-8D15-86857D4F9753}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67958EB7-5E1E-42BA-8CDC-EBF6811500E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67958EB7-5E1E-42BA-8CDC-EBF6811500E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67958EB7-5E1E-42BA-8CDC-EBF6811500E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67958EB7-5E1E-42BA-8CDC-EBF6811500E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8A6430-C21C-4AD1-9215-6F63543E2A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8A6430-C21C-4AD1-9215-6F63543E2A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8A6430-C21C-4AD1-9215-6F63543E2A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8A6430-C21C-4AD1-9215-6F63543E2A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F760D08E-7D0B-4524-9186-229F8003DB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F760D08E-7D0B-4524-9186-229F8003DB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F760D08E-7D0B-4524-9186-229F8003DB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F760D08E-7D0B-4524-9186-229F8003DB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
