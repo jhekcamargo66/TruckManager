@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager.Core", "..\Tru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager.API", "..\TruckManager.API\TruckManager.API.csproj", "{99EAD99C-B0D2-4F62-8D15-86857D4F9753}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager.Tests", "..\TruckManager.Tests\TruckManager.Tests.csproj", "{28329942-CD72-4116-A5E8-B00CBF5B7AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99EAD99C-B0D2-4F62-8D15-86857D4F9753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28329942-CD72-4116-A5E8-B00CBF5B7AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28329942-CD72-4116-A5E8-B00CBF5B7AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28329942-CD72-4116-A5E8-B00CBF5B7AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28329942-CD72-4116-A5E8-B00CBF5B7AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

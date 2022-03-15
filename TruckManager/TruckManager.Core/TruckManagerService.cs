@@ -22,6 +22,11 @@ namespace TruckManager.Core
 
         public async Task<TruckModel> Get(int Id)
         {
+            if(Id <0)
+            {
+                throw new Exception("Wrong parameter");
+            }
+
             var value = await _truckModelRepository.Get(Id);
             return value;
         }

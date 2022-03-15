@@ -199,6 +199,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.15, )"
+            },
+            "OpenCover": {
+              "target": "Package",
+              "version": "[4.6.519, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[3.0.2, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FqlSGLkRVkr2VZkQjsu35Lt+aUPyTBplFOHwmqK1evwCpXCR2lIULgkubKOvJAkykDvv6lshP+/StYuE+XUKBQ==",
+  "dgSpecHash": "Gcx9k+EV0n3khMEtfPUUPCDoA5XJT3vrIlarWVnhJCg5jIZz7ziFVaXVlgPYckTV7ehwYdPSEqG555ojMUMvnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhekc\\Source\\Repos\\TruckManager\\TruckManager\\TruckManager\\TruckManager\\TruckManager.Repository\\TruckManager.Repository.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,8 @@
     "C:\\Users\\jhekc\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jhekc\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jhekc\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\jhekc\\.nuget\\packages\\opencover\\4.6.519\\opencover.4.6.519.nupkg.sha512",
+    "C:\\Users\\jhekc\\.nuget\\packages\\reportgenerator\\3.0.2\\reportgenerator.3.0.2.nupkg.sha512",
     "C:\\Users\\jhekc\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\jhekc\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\jhekc\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

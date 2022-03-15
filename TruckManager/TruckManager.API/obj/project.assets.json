@@ -448,6 +448,12 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "OpenCover/4.6.519": {
+        "type": "package"
+      },
+      "ReportGenerator/3.0.2": {
+        "type": "package"
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1573,7 +1579,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "OpenCover": "4.6.519",
+          "ReportGenerator": "3.0.2"
         },
         "compile": {
           "bin/placeholder/TruckManager.Repository.dll": {}
@@ -2316,6 +2324,81 @@
         "newtonsoft.json.10.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "OpenCover/4.6.519": {
+      "sha512": "oReudTijK4ghbd1GNTzl7Su2KzOufj2evTS5PTGAGC5ThfrThcInB/t9w2ISkcEacOsgLQTdG+PO0UUUGZ+zTw==",
+      "type": "package",
+      "path": "opencover/4.6.519",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "MSBuild/OpenCover.MSBuild.dll",
+        "MSBuild/OpenCover.targets",
+        "SampleSln/.nuget/packages.config",
+        "SampleSln/Bom/Bom.csproj",
+        "SampleSln/Bom/BomManager.cs",
+        "SampleSln/Bom/Properties/AssemblyInfo.cs",
+        "SampleSln/BomSample.sln",
+        "SampleSln/BomTest/BomManagerTests.cs",
+        "SampleSln/BomTest/BomTest.csproj",
+        "SampleSln/BomTest/Properties/AssemblyInfo.cs",
+        "SampleSln/BomTest/packages.config",
+        "SampleSln/coverage.bat",
+        "SampleSln/packages/repositories.config",
+        "Samples/x64/OpenCover.Simple.Target.exe",
+        "Samples/x64/OpenCover.Simple.Target.pdb",
+        "Samples/x86/OpenCover.Simple.Target.exe",
+        "Samples/x86/OpenCover.Simple.Target.pdb",
+        "docs/ReleaseNotes.txt",
+        "docs/Usage.rtf",
+        "opencover.4.6.519.nupkg.sha512",
+        "opencover.nuspec",
+        "readme.txt",
+        "tools/Autofac.Configuration.dll",
+        "tools/Autofac.dll",
+        "tools/CrashReporter.NET.dll",
+        "tools/Gendarme.Framework.dll",
+        "tools/Gendarme.Rules.Maintainability.dll",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/OpenCover.Console.exe",
+        "tools/OpenCover.Console.exe.config",
+        "tools/OpenCover.Console.pdb",
+        "tools/OpenCover.Extensions.dll",
+        "tools/OpenCover.Extensions.pdb",
+        "tools/OpenCover.Framework.dll",
+        "tools/OpenCover.Framework.pdb",
+        "tools/log4net.config",
+        "tools/log4net.dll",
+        "tools/x64/OpenCover.Profiler.dll",
+        "tools/x86/OpenCover.Profiler.dll",
+        "transform/simple_report.xslt",
+        "transform/transform.ps1"
+      ]
+    },
+    "ReportGenerator/3.0.2": {
+      "sha512": "dZCSpECcpuAzn+ZNd6K18jM0XSWF0slr+VMjc9LY8ytdomyZvOuiRCUn9lnb4I/xaf4x2CyHolSn7r5XxzYquw==",
+      "type": "package",
+      "path": "reportgenerator/3.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Readme.txt",
+        "reportgenerator.3.0.2.nupkg.sha512",
+        "reportgenerator.nuspec",
+        "tools/ICSharpCode.NRefactory.CSharp.dll",
+        "tools/ICSharpCode.NRefactory.dll",
+        "tools/ReportGenerator.Reporting.XML",
+        "tools/ReportGenerator.Reporting.dll",
+        "tools/ReportGenerator.XML",
+        "tools/ReportGenerator.exe",
+        "tools/ReportGenerator.exe.config"
       ]
     },
     "runtime.native.System/4.3.0": {

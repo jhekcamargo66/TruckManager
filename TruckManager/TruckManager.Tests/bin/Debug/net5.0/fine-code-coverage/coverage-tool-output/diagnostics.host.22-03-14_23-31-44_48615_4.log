@@ -1,0 +1,132 @@
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:44.937, 272637776918, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 51630],[--endpoint, 127.0.0.1:051630],[--role, client],[--parentprocessid, 12896],[--diag, C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\coverage-tool-output\diagnostics.host.22-03-14_23-31-44_48615_4.log],[--tracelevel, 4],[--datacollectionport, 51629],[--telemetryoptedin, false]
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:44.955, 272637929403, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 3024, 1, 2022/03/14, 23:31:44.974, 272638117917, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 3024, 1, 2022/03/14, 23:31:44.974, 272638120231, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:44.976, 272638136378, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '12896'
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:44.999, 272638370428, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:051630'
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:45.031, 272638682986, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:051630
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:45.045, 272638821712, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 51629
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:45.051, 272638882274, testhost.dll, Trying to connect to server on socket : 127.0.0.1:51629 
+TpTrace Verbose: 0 : 3024, 1, 2022/03/14, 23:31:45.051, 272638888832, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 3024, 8, 2022/03/14, 23:31:45.070, 272639073420, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 3024, 8, 2022/03/14, 23:31:45.070, 272639075709, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 3024, 1, 2022/03/14, 23:31:45.071, 272639083562, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 3024, 4, 2022/03/14, 23:31:45.075, 272639121754, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:051630
+TpTrace Information: 0 : 3024, 11, 2022/03/14, 23:31:45.078, 272639156555, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 3024, 4, 2022/03/14, 23:31:45.078, 272639157246, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.083, 272639207917, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.084, 272639212933, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Information: 0 : 3024, 12, 2022/03/14, 23:31:45.320, 272641573775, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.359, 272641970973, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":3,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Users\\jhekc\\Source\\Repos\\TruckManager\\TruckManager\\TruckManager\\TruckManager\\TruckManager.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.22-03-14_23-31-44_48615_4.log"}}
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.360, 272641974514, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.360, 272641977834, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Information: 0 : 3024, 12, 2022/03/14, 23:31:45.368, 272642057251, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\jhekc\\Source\\Repos\\TruckManager\\TruckManager\\TruckManager\\TruckManager\\TruckManager.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Information: 0 : 3024, 12, 2022/03/14, 23:31:45.368, 272642059457, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.379, 272642170218, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.380, 272642172072, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.383, 272642207806, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 3024, 12, 2022/03/14, 23:31:45.384, 272642217177, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\jhekc\\Source\\Repos\\TruckManager\\TruckManager\\TruckManager\\TruckManager\\TruckManager.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\TruckManager.Tests.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\jhekc\\Source\\Repos\\TruckManager\\TruckManager\\TruckManager\\TruckManager\\TruckManager.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v5.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.210\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\jhekc\\Source\\Repos\\TruckManager\\TruckManager\\TruckManager\\TruckManager\\TruckManager.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 3024, 12, 2022/03/14, 23:31:45.384, 272642219253, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.386, 272642237288, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.388, 272642256097, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.389, 272642263316, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.389, 272642264495, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.393, 272642304639, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.396, 272642334427, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.396, 272642337023, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.396, 272642338011, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.396, 272642338817, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.396, 272642340251, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.398, 272642356827, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.405, 272642430590, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.408, 272642452908, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.visualstudio.dotnetcore.testadapter, from path: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.412, 272642494993, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.413, 272642510977, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.utility.netcoreapp10, from path: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.423, 272642601156, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.423, 272642610658, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.424, 272642612896, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.424, 272642614708, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.424, 272642616374, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.424, 272642618079, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.431, 272642690331, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.432, 272642696955, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.432, 272642698457, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.432, 272642699532, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.433, 272642703090, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.433, 272642704370, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3024, 12, 2022/03/14, 23:31:45.433, 272642706256, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:51630 localEndPoint: [::ffff:127.0.0.1]:51633
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.433, 272642708009, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.433, 272642709375, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.433, 272642710367, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.434, 272642711446, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.434, 272642712980, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.434, 272642718546, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.434, 272642719962, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.435, 272642721119, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.435, 272642722996, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.435, 272642723975, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.435, 272642726402, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.448, 272642851842, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.448, 272642856713, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.448, 272642858243, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.450, 272642878104, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.450, 272642880979, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642882126, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642883418, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642886339, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642887612, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642888678, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642889704, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.451, 272642890651, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.452, 272642891697, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.452, 272642893067, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.452, 272642898162, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.452, 272642899334, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.452, 272642900526, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.453, 272642901495, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.453, 272642902797, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.453, 272642903810, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.455, 272642927027, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.455, 272642928613, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.684, 272645220036, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\TruckManager.Tests.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.690, 272645279860, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.691, 272645282972, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.691, 272645284569, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.691, 272645286044, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.691, 272645289178, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.691, 272645290798, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.692, 272645292340, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.692, 272645293793, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.693, 272645303795, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.693, 272645305604, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.693, 272645307647, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.700, 272645371276, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.700, 272645376308, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.700, 272645378021, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.700, 272645379588, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.701, 272645381288, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.701, 272645382368, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.715, 272645528494, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\jhekc\Source\Repos\TruckManager\TruckManager\TruckManager\TruckManager\TruckManager.Tests\bin\Debug\net5.0\fine-code-coverage\build-output\TruckManager.Tests.dll'
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.726, 272645632274, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 3024, 5, 2022/03/14, 23:31:45.750, 272645875188, testhost.dll, [xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.13)
+TpTrace Verbose: 0 : 3024, 5, 2022/03/14, 23:31:45.750, 272645877644, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":3,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.13)"}}

@@ -9,7 +9,9 @@
       "TruckManager.Repository/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.15"
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.15",
+          "OpenCover": "4.6.519",
+          "ReportGenerator": "3.0.2"
         },
         "runtime": {
           "TruckManager.Repository.dll": {}
@@ -409,6 +411,8 @@
           }
         }
       },
+      "OpenCover/4.6.519": {},
+      "ReportGenerator/3.0.2": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1290,6 +1294,20 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "OpenCover/4.6.519": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oReudTijK4ghbd1GNTzl7Su2KzOufj2evTS5PTGAGC5ThfrThcInB/t9w2ISkcEacOsgLQTdG+PO0UUUGZ+zTw==",
+      "path": "opencover/4.6.519",
+      "hashPath": "opencover.4.6.519.nupkg.sha512"
+    },
+    "ReportGenerator/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dZCSpECcpuAzn+ZNd6K18jM0XSWF0slr+VMjc9LY8ytdomyZvOuiRCUn9lnb4I/xaf4x2CyHolSn7r5XxzYquw==",
+      "path": "reportgenerator/3.0.2",
+      "hashPath": "reportgenerator.3.0.2.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
